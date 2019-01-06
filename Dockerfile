@@ -9,4 +9,4 @@ RUN cd /usr/src/redmine/plugins \
     && bundle install
 
 # Fix permissions for bundle install after container starts.
-#RUN chown -R redmine:redmine /home/redmine
+RUN chown -R redmine:redmine /home/redmine
