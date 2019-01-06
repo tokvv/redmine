@@ -7,3 +7,6 @@ RUN cd /usr/src/redmine/plugins \
     && apt-get update \
     && apt-get install build-essential -y \
     && bundle install
+
+# Fix permissions for bundle install after container starts.
+RUN chown -R redmine:redmine /home/redmine
