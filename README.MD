@@ -7,8 +7,8 @@
 
 #### RUN php -d memory_limit=-1 composer.phar install
 
+Argument "memory_limit=-1" increase the memory limit for correct work.
+
 ### Example to execute drush commands.
 #### Run in the website root directory:
 #### RUN vendor/bin/drush status
-
-Argument "memory_limit=-1" increase the memory limit for correct work.
