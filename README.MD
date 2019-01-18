@@ -3,7 +3,7 @@
 
 #### RUN wget https://getcomposer.org/download/1.8.0/composer.phar
 
-#### Run install command in the website root directory:
+#### Run install command in the website root directory to make the project work:
 
 #### RUN php -d memory_limit=-1 composer.phar install
 
